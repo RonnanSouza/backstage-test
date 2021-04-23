@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Backstage Test
+  description: Just a test
+  annotations: 
+    github.com/project-slug: RonnanSouza/backstage-test
+    backstage.io/source-ref: "https://github.com/RonnanSouza/backstage-test"
+    backstage.io/techdocs-ref: url:https://github.com/RonnanSouza/backstage-test
+    backstage.io/github-actions-id: https://github.com/RonnanSouza/backstage-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: RonnanSouza
